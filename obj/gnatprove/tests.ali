@@ -1,0 +1,45 @@
+V "GNAT Lib v16"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -gnatwa
+A -gnat2022
+A -gnata
+A -gnatc
+A -gnatis
+P GP
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tests%b		tests.adb		c31092aa OO SU
+W coin_change%s		coin_change.adb		coin_change.ali
+Z system%s		system.ads		system.ali
+
+D coin_change.ads	20260918180816 333361f7 coin_change%s
+D system.ads		20260430083320 e2b7c99d system%s
+D tests.adb		20260918180816 f023f35d tests%b
+G a Z
+X 1 coin_change.ads
+2K9*Coin_Change 6e16 3|1w6 4r19 5r19 6r19 7r19 8r19
+4I12*Coins{natural}
+5V13*Minimum{4I12} 3|4s31 5s31 6s31 7s31 8s31
+X 3 tests.adb
+2U11*Tests 2b11 9l5 9t10
+
+QQ SPARKVERSION FSF 16.1.0
+GG EK_DIRECT_CALLS tests 0
+GG EK_PROOF_DEPENDENCIES tests 0
+GG EK_GLOBALS tests local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 1 coin_change__minimum FALSE FALSE FALSE TRUE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0
+GG EK_FLOW_SCOPE system__Oge FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE system__Oeq FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE coin_change__minimum FALSE FALSE FALSE FALSE TRUE coin_change VISIBLE_PART
+GG EK_FLOW_SCOPE system__Olt FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE system TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE system__Ole FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE tests FALSE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE system__Ogt FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE coin_change TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_END_MARKER

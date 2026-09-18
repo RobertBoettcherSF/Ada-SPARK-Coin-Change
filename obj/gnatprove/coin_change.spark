@@ -1,0 +1,100 @@
+{
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "arg": 1,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    }
+  ],
+  "entities": {
+    " 1": {
+      "name": "Coin_Change.Minimum",
+      "sloc": [
+        {
+          "column": 13,
+          "file": "coin_change.ads",
+          "line": 5
+        }
+      ]
+    },
+    " 2": {
+      "name": "Coin_Change",
+      "sloc": [
+        {
+          "column": 9,
+          "file": "coin_change.ads",
+          "line": 2
+        }
+      ]
+    }
+  },
+  "flow": [
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 1,
+      "file": "coin_change.ads",
+      "how_proved": "flow",
+      "line": 5,
+      "message": {
+        "text": "implicit aspect Always_Terminates on \"Minimum\" has been proved, subprogram will terminate"
+      },
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info",
+      "unproved_status": {
+        "status": "unknown"
+      }
+    },
+    {
+      "check_tree": {
+      },
+      "col": 52,
+      "entity": 1,
+      "file": "coin_change.ads",
+      "how_proved": "flow",
+      "line": 5,
+      "message": {
+        "text": "data dependencies proved"
+      },
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "unproved_status": {
+        "status": "unknown"
+      }
+    }
+  ],
+  "pragma_assume": [
+  ],
+  "progress": "PROGRESS_PROOF",
+  "proof": [
+  ],
+  "skip_flow_proof": [
+  ],
+  "skip_proof": [
+  ],
+  "spark": {
+    " 1": "all",
+    " 2": "all"
+  },
+  "stop_reason": "STOP_REASON_NONE",
+  "timings": {
+    " 1": {
+      "gnat2why.vc_generation": 9.86000057309866E-04
+    },
+    "global": {
+      "flow analysis": 8.67999973706901E-04,
+      "globals (advanced)": 1.25000005937181E-04,
+      "globals (basic)": 1.51999993249774E-04,
+      "init_why_sections": 6.16999983321875E-04,
+      "marking": 1.30999993416481E-04,
+      "properties (advanced)": 1.89999991562217E-05,
+      "translation of standard": 1.54299999121577E-03
+    }
+  },
+  "warn_error": [
+  ]
+}

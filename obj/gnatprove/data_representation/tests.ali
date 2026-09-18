@@ -1,0 +1,34 @@
+V "GNAT Lib v16"
+M P W=b
+A -gnatA
+A -gnatwa
+A -gnat2022
+A -gnata
+A -gnatR2js
+A -gnatws
+A -gnatx
+A -gnatis
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tests%b		tests.adb		c31092aa NE OO SU
+W coin_change%s		coin_change.adb		coin_change.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+D ada.ads		20260430083320 76789da1 ada%s
+D a-assert.ads		20260430083320 ba465f5c ada.assertions%s
+D a-unccon.ads		20260430083320 0e9b276f ada.unchecked_conversion%s
+D coin_change.ads	20260918180816 333361f7 coin_change%s
+D system.ads		20260430083320 e2b7c99d system%s
+D s-assert.ads		20260430083320 9c4520c7 system.assertions%s
+D s-exctab.ads		20260430083320 91bef6ef system.exception_table%s
+D s-stalib.ads		20260430083320 1c9580f6 system.standard_library%s
+D tests.adb		20260918180816 f023f35d tests%b
+G a e
+G c Z b b [tests standard 2 11 none]
+G r c none [tests standard 2 11 none] [minimum coin_change 5 13 none]
+

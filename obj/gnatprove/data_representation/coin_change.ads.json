@@ -1,0 +1,17 @@
+[
+{
+  "name": "Coin_Change.Amount",
+  "location": "coin_change.ads:3:12",
+  "Object_Size": 32,
+  "Value_Size": 4,
+  "Alignment": 4
+}
+,
+{
+  "name": "Coin_Change.Coins",
+  "location": "coin_change.ads:4:12",
+  "Object_Size": 32,
+  "Value_Size": 4,
+  "Alignment": 4
+}
+]

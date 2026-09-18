@@ -1,0 +1,29 @@
+V "GNAT Lib v14"
+A -gnatA
+A -gnatwa
+A -gnat2022
+A -gnata
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U coin_change%b		coin_change.adb		e7d6fa30 NE OO PK
+
+U coin_change%s		coin_change.ads		333361f7 EE NE OO PK
+
+D coin_change.ads	20260918180816 333361f7 coin_change%s
+D coin_change.adb	20260918180816 d4e59bc7 coin_change%b
+D system.ads		20240801081714 14286b0f system%s
+G a e
+G c Z s b [minimum coin_change 5 13 none]
+X 1 coin_change.ads
+2K9*Coin_Change 6l5 6e16 2|2b14 14l5 14t16
+3I12*Amount{natural} 5r26 2|3r26
+4I12*Coins{natural} 5r41 2|3r41
+5V13*Minimum{4I12} 5>22 2|3b13 13l8 13t15
+5i22 N{3I12} 2|3b22 6r12
+
